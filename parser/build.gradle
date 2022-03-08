@@ -26,8 +26,8 @@ tasks.withType(Javadoc).all {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
-    implementation 'com.tickaroo.tikxml:retrofit-converter:0.8.16-SNAPSHOT'
-    implementation 'com.tickaroo.tikxml:annotation:0.8.16-SNAPSHOT'
-    implementation 'com.tickaroo.tikxml:core:0.8.16-SNAPSHOT'
-    kapt 'com.tickaroo.tikxml:processor:0.8.16-SNAPSHOT'
+    implementation 'com.tickaroo.tikxml:retrofit-converter:0.8.15'
+    //implementation 'com.tickaroo.tikxml:annotation:0.8.15'
+    implementation 'com.tickaroo.tikxml:core:0.8.15'
+    kapt 'com.tickaroo.tikxml:processor:0.8.15'
 }
